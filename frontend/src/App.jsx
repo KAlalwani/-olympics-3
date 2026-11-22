@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage";
 import ZaidDetails from "./pages/ZaidDetails";
 import createZaid from "./pages/CreateZaid";
 import UpdateZaid from "./pages/UpdateZaid";
+import AllZaids from "./pages/AllZaids"
 
 function App() {
   return (
