@@ -20,7 +20,7 @@ function ZaidDetails() {
 
   useEffect(()=>{
       getZaid()
-  })
+  },[])
   return (
     <div>
         <h1>Zaid Details</h1>
