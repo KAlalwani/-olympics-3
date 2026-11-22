@@ -2,8 +2,6 @@ const Zaid = require('../models/Zaid')
 const router = require('express').Router()
 
 
-
-
 router.get('/', async (req,res)=>{
     const allZaids = await Zaid.find()
     res.status(200).json(allZaids)
@@ -36,3 +34,4 @@ router.put('/:zaidId', async (req,res)=>{
 })
 
 
+module.exports = router;

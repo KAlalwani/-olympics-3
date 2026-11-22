@@ -21,7 +21,7 @@ app.use(morgan('dev'))
 
 
 // Routes Here
-app.use('/zaids',zaidRoutes)
+app.use('/zaids', zaidRoutes)
 
 
 // connect to database and listen on Port 3000
